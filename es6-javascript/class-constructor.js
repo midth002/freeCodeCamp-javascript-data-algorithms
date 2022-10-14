@@ -1,6 +1,3 @@
-
-
-
 // Only change code below this line
 class Vegetable {
 
