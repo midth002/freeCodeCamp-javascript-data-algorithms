@@ -38,4 +38,11 @@ let result8 = quoteSample2.match(myRegex); // Change this line
 // Create a single regex that matches all characters that are not a number or a vowel. 
 let quoteSample3 = "3 blind mice.";
 let myRegex3 = /[^aeiou^0-9]/gi; // Change this line
-let result = quoteSample3.match(myRegex3); // Change this line
+let result9 = quoteSample3.match(myRegex3); // Change this line
+
+// Find one or more matches with 's' in the word 'Mississippi
+let difficultSpelling = "Mississippi";
+let myRegex4 = /s+/gi; // Change this line
+let result10 = difficultSpelling.match(myRegex4);
+
+
